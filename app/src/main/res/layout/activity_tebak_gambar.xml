@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_tebak_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="activity.com.tebakgambar.TebakGambar">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f1f4d560"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T E G A !"
+        android:textSize="65dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="T e b a k G a m b a r !"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textColor="#daac9951"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <Button android:text="Play"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Button1"
+        android:layout_width="fill_parent"
+        android:textSize="40px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/exitBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <Button android:text="Exit"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/exitBtn"
+        android:layout_width="fill_parent"
+        android:textSize="40px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="activity.com.tebakgambar.Level2">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f1ceb145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL 2"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uci"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/Buttonaa" />
+
+    <Button android:text="Jaden Smith"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttoncc"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Buttonbb"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView">
+    </Button>
+
+    <Button android:text="Will Smith"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonaa"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginBottom="33dp"
+        android:layout_toLeftOf="@+id/textView">
+    </Button>
+
+    <Button android:text="Nursuci Nugroho"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonbb"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+</RelativeLayout>

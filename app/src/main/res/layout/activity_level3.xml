@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level3"
+    android:background="@drawable/pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="activity.com.tebakgambar.Level3">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f1ceb145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL 3"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <Button android:text="Michelle Obama"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonccc"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Buttonbbb"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView">
+    </Button>
+
+    <Button android:text="Ananda Ayu"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonaaa"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginBottom="33dp"
+        android:layout_toLeftOf="@+id/textView">
+    </Button>
+
+    <Button android:text="Natasha Obama"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonbbb"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ana"
+        android:layout_above="@+id/Buttonaaa"
+        android:layout_alignLeft="@+id/Buttonaaa"
+        android:layout_alignStart="@+id/Buttonaaa"
+        android:layout_alignRight="@+id/Buttonccc"
+        android:layout_alignEnd="@+id/Buttonccc"
+        android:layout_below="@+id/textView" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="hello">Tebak Gambar</string>
+    <string name="app_name">Tebak Gambar</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Aplikasi</string>
+</resources>
