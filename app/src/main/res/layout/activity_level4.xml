@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_level3"
+    android:id="@+id/activity_level4"
     android:background="@drawable/pic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="activity.com.tebakgambar.Level3">
+    tools:context="activity.com.tebakgambar.Level4">
 
     <TextView
         android:layout_alignParentTop="true"
@@ -17,12 +17,12 @@
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 3"
+        android:text="LEVEL 4"
         android:textSize="35dp"
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <Button android:text="Michelle Obama"
+    <Button android:text="Bayu Hendriansyah"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"
@@ -35,7 +35,7 @@
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    <Button android:text="Kiki Dewi"
+    <Button android:text="Rowan Atkinson"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaaa"
@@ -49,7 +49,7 @@
         android:layout_toLeftOf="@+id/textView">
     </Button>
 
-    <Button android:text="Natasha Obama"
+    <Button android:text="Mr Bean"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbbb"
@@ -65,7 +65,7 @@
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ana"
+        android:src="@drawable/bean"
         android:layout_above="@+id/Buttonaaa"
         android:layout_alignLeft="@+id/Buttonaaa"
         android:layout_alignStart="@+id/Buttonaaa"

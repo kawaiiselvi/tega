@@ -7,43 +7,33 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class Level3 extends Activity implements View.OnClickListener {
+public class L4next1 extends Activity implements View.OnClickListener {
     Button pesanToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level3);
+        setContentView(R.layout.activity_l4next1);
 
-        pesanToast = (Button) findViewById(R.id.Buttonbbb);
+        pesanToast = (Button) findViewById(R.id.Buttonaa);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        pesanToast = (Button) findViewById(R.id.Buttonaaa);
+        pesanToast = (Button) findViewById(R.id.Buttonbb);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        pesanToast = (Button) findViewById(R.id.Buttonccc);
+        pesanToast = (Button) findViewById(R.id.Buttoncc);
         pesanToast.setOnClickListener((View.OnClickListener) this);
-
-
-        Button ne1 = (Button) findViewById(R.id.next1);
-        ne1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View bebek) {
-                Intent myIntent = new
-                        Intent(bebek.getContext(), L3next1.class);
-                startActivityForResult(myIntent, 0);
-            }
-        });
     }
 
     public void onClick(View clicked) {
         switch (clicked.getId()) {
-            case R.id.Buttonbbb:
+            case R.id.Buttonaa:
                 Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
                 break;
-            case R.id.Buttonaaa:
+            case R.id.Buttonbb:
                 Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
                 break;
-            case R.id.Buttonccc:
+            case R.id.Buttoncc:
                 Toast.makeText(this, "Jawaban Kamu Benar!", Toast.LENGTH_SHORT) .show();
                 break;
         }

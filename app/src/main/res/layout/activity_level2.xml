@@ -72,4 +72,28 @@
         android:layout_centerHorizontal="true">
     </Button>
 
+    <Button
+        android:text="Next ?"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next1"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Gambar Siapakah Ini . . . ?"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:textColor="#0b0b0b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
 </RelativeLayout>

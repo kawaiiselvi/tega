@@ -40,6 +40,24 @@ public class Play extends Activity {
             }
         });
 
+        Button pat = (Button) findViewById(R.id.Button04);
+        pat.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), Level4.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button ma = (Button) findViewById(R.id.Button05);
+        ma.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), Level5.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
 
     }
 }

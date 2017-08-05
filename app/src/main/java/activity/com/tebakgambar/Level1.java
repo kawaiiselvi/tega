@@ -1,6 +1,7 @@
 package activity.com.tebakgambar;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +24,20 @@ public class Level1 extends Activity implements View.OnClickListener {
 
         pesanToast = (Button) findViewById(R.id.Buttonc);
         pesanToast.setOnClickListener((View.OnClickListener) this);
+
+
+
+
+        Button ne1 = (Button) findViewById(R.id.next1);
+        ne1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), L1next1.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+
     }
 
     public void onClick(View clicked) {

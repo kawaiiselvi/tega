@@ -34,7 +34,7 @@
 
     <Button android:text="Play"
         android:textColor="#8b6300"
-        android:background="#d9ca94"
+        android:background="#d8d9ca94"
         android:id="@+id/Button1"
         android:layout_width="fill_parent"
         android:textSize="40px"
@@ -48,7 +48,7 @@
 
     <Button android:text="Exit"
         android:textColor="#8b6300"
-        android:background="#d9ca94"
+        android:background="#d8d9ca94"
         android:id="@+id/exitBtn"
         android:layout_width="fill_parent"
         android:textSize="40px"
