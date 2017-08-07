@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_level4"
+    android:id="@+id/activity_l5next2"
     android:background="@drawable/pic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="activity.com.tebakgambar.Level4">
+    tools:context="activity.com.tebakgambar.L5next2">
 
     <TextView
         android:layout_alignParentTop="true"
@@ -17,12 +17,12 @@
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 4"
+        android:text="LEVEL 5"
         android:textSize="35dp"
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <Button android:text="Bayu Hendriansyah"
+    <Button android:text="Bintang Darat"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"
@@ -35,7 +35,7 @@
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    <Button android:text="Rowan Atkinson"
+    <Button android:text="Bintang Laut"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaaa"
@@ -49,7 +49,7 @@
         android:layout_toLeftOf="@+id/textView">
     </Button>
 
-    <Button android:text="Mr Bean"
+    <Button android:text="Patrick"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbbb"
@@ -65,7 +65,7 @@
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/bean"
+        android:src="@drawable/patrik"
         android:layout_above="@+id/Buttonaaa"
         android:layout_alignLeft="@+id/Buttonaaa"
         android:layout_alignStart="@+id/Buttonaaa"
@@ -85,7 +85,7 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Gambar Siapakah Ini ...?"
+        android:text="Gambar Apakah Ini ...?"
         android:textStyle="bold"
         android:textSize="30px"
         android:textColor="#0b0b0b"

@@ -38,6 +38,8 @@ public class Level1 extends Activity implements View.OnClickListener {
         });
 
 
+
+
     }
 
     public void onClick(View clicked) {

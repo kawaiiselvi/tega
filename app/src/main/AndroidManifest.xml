@@ -2,9 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="activity.com.tebakgambar">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tega"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -26,7 +28,14 @@
         <activity android:name=".Level4" />
         <activity android:name=".L4next1" />
         <activity android:name=".Level5" />
-        <activity android:name=".L5next1"></activity>
+        <activity android:name=".L5next1" />
+        <activity android:name=".web" />
+        <activity android:name=".profil" />
+        <activity android:name=".L1next2" />
+        <activity android:name=".L2next2" />
+        <activity android:name=".L3next2" />
+        <activity android:name=".L4next2" />
+        <activity android:name=".L5next2"></activity>
     </application>
 
 </manifest>

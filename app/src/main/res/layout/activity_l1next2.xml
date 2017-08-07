@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_level4"
+    android:id="@+id/activity_l1next2"
     android:background="@drawable/pic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="activity.com.tebakgambar.Level4">
+    tools:context="activity.com.tebakgambar.L1next2">
 
     <TextView
         android:layout_alignParentTop="true"
@@ -17,61 +17,61 @@
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 4"
+        android:text="LEVEL 1"
         android:textSize="35dp"
         android:textStyle="bold"
         android:id="@+id/textView" />
-
-    <Button android:text="Bayu Hendriansyah"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonccc"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/Buttonbbb"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView">
-    </Button>
-
-    <Button android:text="Rowan Atkinson"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonaaa"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/textView"
-        android:layout_marginBottom="33dp"
-        android:layout_toLeftOf="@+id/textView">
-    </Button>
-
-    <Button android:text="Mr Bean"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonbbb"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true">
-    </Button>
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/bean"
-        android:layout_above="@+id/Buttonaaa"
-        android:layout_alignLeft="@+id/Buttonaaa"
-        android:layout_alignStart="@+id/Buttonaaa"
-        android:layout_alignRight="@+id/Buttonccc"
-        android:layout_alignEnd="@+id/Buttonccc"
-        android:layout_below="@+id/textView" />
+        android:src="@drawable/gajah"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/But2" />
+
+    <Button android:text="Kaki Badak"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But2"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/But1"
+        android:layout_alignBottom="@+id/But1">
+    </Button>
+
+    <Button android:text="Kaki Gajah"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But1"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView">
+    </Button>
+
+    <Button android:text="Kaki Kucing"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But3"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/But2"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView">
+    </Button>
 
     <Button
         android:text="Next ?"
@@ -80,12 +80,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/next1"
-        android:layout_above="@+id/imageView1"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Gambar Siapakah Ini ...?"
+        android:text="Gambar Apakah Ini ...?"
         android:textStyle="bold"
         android:textSize="30px"
         android:textColor="#0b0b0b"
@@ -93,7 +94,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_alignStart="@+id/imageView1" />
+        android:layout_alignLeft="@+id/But1"
+        android:layout_alignStart="@+id/But1" />
 
 </RelativeLayout>

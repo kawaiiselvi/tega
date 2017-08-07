@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class TebakGambar extends Activity implements View.OnClickListener {
@@ -36,6 +37,24 @@ public class TebakGambar extends Activity implements View.OnClickListener {
                 Intent myIntent = new
                         Intent(bebek.getContext(), TebakGambar.class);
                 startActivityForResult(myIntent, 0);
+            }
+        });
+
+        ImageButton info = (ImageButton) findViewById(R.id.info);
+        info.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View infoo) {
+                Intent myIntent = new Intent(infoo.getContext(),profil.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
+
+        ImageButton as = (ImageButton) findViewById(R.id.smk);
+        as.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View as) {
+                Intent myIntent = new Intent(as.getContext(),web.class);
+                startActivityForResult(myIntent,0);
             }
         });
 
