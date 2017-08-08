@@ -66,7 +66,7 @@
         android:background="#d9ca94"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/next1"
+        android:id="@+id/next4"
         android:layout_alignBaseline="@+id/textView"
         android:layout_alignBottom="@+id/textView"
         android:layout_alignParentRight="true"

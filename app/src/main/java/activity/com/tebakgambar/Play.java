@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Play extends Activity {
 
@@ -58,6 +59,15 @@ public class Play extends Activity {
             }
         });
 
+
+        ImageButton hom = (ImageButton) findViewById(R.id.home);
+        hom.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View infoo) {
+                Intent myIntent = new Intent(infoo.getContext(),TebakGambar.class);
+                startActivityForResult(myIntent,0);
+            }
+        });
 
     }
 }

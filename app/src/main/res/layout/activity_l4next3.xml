@@ -46,7 +46,7 @@
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    Tom<Button android:text="Teman Marsha"
+    Tom<Button android:text="Tom"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbb"
@@ -57,18 +57,6 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true">
     </Button>
-
-    <Button
-        android:text="Next ?"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/next1"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
     <TextView
         android:text="Gambar Apakah Ini ?"
@@ -95,5 +83,17 @@
         android:layout_toLeftOf="@+id/textView"
         android:layout_toStartOf="@+id/textView">
     </Button>
+
+    <Button
+        android:text="Next ?"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next4"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

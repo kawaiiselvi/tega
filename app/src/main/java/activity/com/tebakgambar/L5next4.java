@@ -8,23 +8,22 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class L1next4 extends Activity implements View.OnClickListener {
+public class L5next4 extends Activity implements View.OnClickListener {
     Button pesanToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_l1next4);
+        setContentView(R.layout.activity_l5next4);
 
-        pesanToast = (Button) findViewById(R.id.But2);
+        pesanToast = (Button) findViewById(R.id.Buttonaaa);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        pesanToast = (Button) findViewById(R.id.But1);
+        pesanToast = (Button) findViewById(R.id.Buttonbbb);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        pesanToast = (Button) findViewById(R.id.But3);
+        pesanToast = (Button) findViewById(R.id.Buttonccc);
         pesanToast.setOnClickListener((View.OnClickListener) this);
-
 
         ImageButton hom = (ImageButton) findViewById(R.id.home);
         hom.setOnClickListener(new View.OnClickListener(){
@@ -38,14 +37,14 @@ public class L1next4 extends Activity implements View.OnClickListener {
 
     public void onClick(View clicked) {
         switch (clicked.getId()) {
-            case R.id.But2:
-                Toast.makeText(this, "Jawaban Kamu Benar!", Toast.LENGTH_SHORT) .show();
+            case R.id.Buttonaaa:
+                Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.But1:
-                Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
+            case R.id.Buttonbbb:
+                Toast.makeText(this, "Jawaban Kamu Benar!", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.But3:
-                Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
+            case R.id.Buttonccc:
+                Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT).show();
                 break;
         }
     }

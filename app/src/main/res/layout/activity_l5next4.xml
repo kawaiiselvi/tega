@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_l3next3"
+    android:id="@+id/activity_l5next4"
     android:background="@drawable/pic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="activity.com.tebakgambar.L3next3">
+    tools:context="activity.com.tebakgambar.L5next4">
 
     <TextView
         android:layout_alignParentTop="true"
@@ -17,53 +17,28 @@
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 3"
+        android:text="LEVEL 5"
         android:textSize="35dp"
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/nemo"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/Buttonaa" />
-
-    <Button android:text="Nemo"
+    <Button android:text="Bapak Aep"
         android:textColor="#8b6300"
         android:background="#d9ca94"
-        android:id="@+id/Buttoncc"
+        android:id="@+id/Buttonccc"
         android:layout_width="wrap_content"
         android:textSize="20px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/Buttonbb"
+        android:layout_alignTop="@+id/Buttonbbb"
         android:layout_toRightOf="@+id/textView"
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    <Button android:text="Marlin"
+    <Button android:text="Steve Jobs"
         android:textColor="#8b6300"
         android:background="#d9ca94"
-        android:id="@+id/Buttonaa"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/textView"
-        android:layout_marginBottom="33dp"
-        android:layout_toLeftOf="@+id/textView">
-    </Button>
-
-    <Button android:text="Ikan Badut"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonbb"
+        android:id="@+id/Buttonbbb"
         android:layout_width="wrap_content"
         android:textSize="20px"
         android:textStyle="italic"
@@ -72,17 +47,17 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button
-        android:text="Next ?"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/next4"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:src="@drawable/steve"
+        android:layout_above="@+id/Buttonaaa"
+        android:layout_alignLeft="@+id/Buttonaaa"
+        android:layout_alignStart="@+id/Buttonaaa"
+        android:layout_alignRight="@+id/Buttonccc"
+        android:layout_alignEnd="@+id/Buttonccc"
+        android:layout_below="@+id/textView" />
 
     <TextView
         android:text="Gambar Apakah Ini ?"
@@ -93,7 +68,31 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/Buttonaa"
-        android:layout_alignStart="@+id/Buttonaa" />
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignStart="@+id/imageView1" />
+
+    <Button android:text="Tom Cruise"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonaaa"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView">
+    </Button>
+
+
+    <ImageButton
+        android:background="@drawable/home"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:id="@+id/home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
