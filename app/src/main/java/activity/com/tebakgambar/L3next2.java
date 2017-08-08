@@ -24,6 +24,15 @@ public class L3next2 extends Activity implements View.OnClickListener {
         pesanToast = (Button) findViewById(R.id.Buttoncc);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
+        Button ne2 = (Button) findViewById(R.id.next3);
+        ne2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), L3next3.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
 
     }
 

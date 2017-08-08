@@ -50,24 +50,22 @@
     </Button>
 
     <ImageButton
-        android:background="@drawable/info"
-        android:layout_height="70dp"
-        android:layout_width="70dp"
-        android:id="@+id/info"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp" />
-
-    <ImageButton
         android:background="@drawable/logo"
-        android:layout_height="70dp"
-        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
         android:id="@+id/smk"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/textView4"
         android:layout_toEndOf="@+id/textView4" />
+
+    <ImageButton
+        android:background="@drawable/info"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:id="@+id/info"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4" />
 
     <Button android:text="Exit"
         android:textColor="#8b6300"
@@ -80,8 +78,21 @@
         android:layout_above="@+id/smk"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="11dp">
     </Button>
+
+    <ToggleButton
+        android:background="#d8d9ca94"
+        android:id="@+id/toggleSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onToggleClicked"
+        android:textOn="Sound On"
+        android:textOff="Sound Off"
+        android:textStyle="italic"
+        android:textColor="#8b6300"
+        android:layout_below="@+id/exitBtn"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

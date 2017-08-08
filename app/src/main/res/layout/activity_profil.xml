@@ -22,11 +22,11 @@
         android:layout_centerHorizontal="true">
 
         <TextView
-            android:text="          Selvi Yulianti W
-                XII RPL 2
-    SMK Assalaam Bandung
-        "
+            android:text="  Selvi Yulianti W
+                                                            XII RPL 2
+                         SMK Assalaam Bandung"
             android:textColor="#ffffff"
+            android:gravity="center_horizontal"
             android:textStyle="bold"
             android:textSize="20dp"
             android:layout_width="wrap_content"
@@ -38,24 +38,23 @@
             android:layout_alignStart="@+id/tableRow2" />
     </TableRow>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/selvi"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:id="@+id/imageView" />
-
     <TextView
         android:text="Assalamu'alaikum ^^"
         android:textColor="#000000"
         android:textSize="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textView6"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:id="@+id/textView6" />
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/selvi"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

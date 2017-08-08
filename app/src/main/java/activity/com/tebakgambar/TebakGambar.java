@@ -9,15 +9,30 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import android.media.MediaPlayer;
+import android.widget.ToggleButton;
 
 public class TebakGambar extends Activity implements View.OnClickListener {
     Button keluar;
+    MediaPlayer audioBackground;
+    ToggleButton myToggle;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tebak_gambar);
+
+        audioBackground = MediaPlayer.create(this, R.raw.my_sound);
+        audioBackground.setLooping(true);
+        audioBackground.setVolume(1,1);
+        audioBackground.start();
+
+        myToggle = (ToggleButton) findViewById(R.id.toggleSound);
+        audioBackground = MediaPlayer.create(this, R.raw.my_sound);
+        audioBackground.setLooping(true);
+        audioBackground.setVolume(1,1);
+        audioBackground.start();
 
         keluar = (Button) findViewById(R.id.exitBtn);
         keluar.setOnClickListener(this);
@@ -31,14 +46,6 @@ public class TebakGambar extends Activity implements View.OnClickListener {
             }
         });
 
-        Button dua = (Button) findViewById(R.id.exitBtn);
-        dua.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View bebek) {
-                Intent myIntent = new
-                        Intent(bebek.getContext(), TebakGambar.class);
-                startActivityForResult(myIntent, 0);
-            }
-        });
 
         ImageButton info = (ImageButton) findViewById(R.id.info);
         info.setOnClickListener(new View.OnClickListener(){
@@ -84,5 +91,24 @@ public class TebakGambar extends Activity implements View.OnClickListener {
                     }
 
                 }).show();
+    }
+
+    public void onToggleClicked(View view) {
+        boolean on = ((ToggleButton) view).isChecked();
+
+        if (on) {
+			/*Mematikan suara audio*/
+            audioBackground.setVolume(0, 0);
+        } else {
+			/*Menghidupkan kembali audio background*/
+            audioBackground.setVolume(1, 1);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        // TODO Auto-generated method stub
+        audioBackground.stop();
+        TebakGambar.this.finish();
     }
 }

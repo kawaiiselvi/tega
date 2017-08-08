@@ -85,7 +85,7 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Gambar Siapakah Ini ...?"
+        android:text="Gambar Siapakah Ini ?"
         android:textStyle="bold"
         android:textSize="30px"
         android:textColor="#0b0b0b"

@@ -85,7 +85,7 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Gambar Apakah Ini ...?"
+        android:text="Gambar Apakah Ini ?"
         android:textStyle="bold"
         android:textSize="30px"
         android:textColor="#0b0b0b"
@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
-        android:layout_alignRight="@+id/Buttonbb"
-        android:layout_alignEnd="@+id/Buttonbb" />
+        android:layout_alignLeft="@+id/Buttonaa"
+        android:layout_alignStart="@+id/Buttonaa" />
 
 </RelativeLayout>

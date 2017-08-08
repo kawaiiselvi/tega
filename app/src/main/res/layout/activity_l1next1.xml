@@ -22,17 +22,6 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/itik"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/But2" />
-
     <Button android:text="Ayam"
         android:textColor="#8b6300"
         android:background="#d9ca94"
@@ -86,7 +75,7 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Gambar Apakah Ini ...?"
+        android:text="Gambah apakah Ini ?"
         android:textStyle="bold"
         android:textSize="30px"
         android:textColor="#0b0b0b"
@@ -94,7 +83,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/But1"
-        android:layout_alignStart="@+id/But1" />
+        android:layout_alignLeft="@+id/Buttona"
+        android:layout_alignStart="@+id/Buttona"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/itik"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/But2" />
 
 </RelativeLayout>

@@ -35,7 +35,13 @@
         <activity android:name=".L2next2" />
         <activity android:name=".L3next2" />
         <activity android:name=".L4next2" />
-        <activity android:name=".L5next2"></activity>
+        <activity android:name=".L5next2" />
+        <activity android:name=".L1next3" />
+        <activity android:name=".L2next3" />
+        <activity android:name=".L3next3" />
+        <activity android:name=".L4next3" />
+        <activity android:name=".L5next3" />
+        <activity android:name=".L1next4"></activity>
     </application>
 
 </manifest>
