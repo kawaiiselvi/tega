@@ -24,7 +24,7 @@ public class L5next1 extends Activity implements View.OnClickListener {
         pesanToast = (Button) findViewById(R.id.Buttonccc);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        Button ne2 = (Button) findViewById(R.id.next2);
+        Button ne2 = (Button) findViewById(R.id.Buttonaaa);
         ne2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new

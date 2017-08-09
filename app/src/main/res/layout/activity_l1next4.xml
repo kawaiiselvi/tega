@@ -18,21 +18,19 @@
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 1"
-        android:textSize="35dp"
+        android:text="              Selamat! \nJawaban Kamu Benar!^^"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:id="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/bill"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/But2" />
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
 
     <Button android:text="Bill Gates"
         android:textColor="#8b6300"
@@ -47,6 +45,20 @@
         android:layout_alignBottom="@+id/But1">
     </Button>
 
+    <TextView
+        android:text="\nGambar Siapakah Ini ?"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:textColor="#0b0b0b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/Buttona"
+        android:layout_alignStart="@+id/Buttona"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
     <Button android:text="Iwan Fals"
         android:textColor="#8b6300"
         android:background="#d9ca94"
@@ -55,25 +67,11 @@
         android:textSize="25px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="23dp"
+        android:layout_marginBottom="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView">
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2">
     </Button>
-
-
-
-    <TextView
-        android:text="Gambar Apakah Ini ?"
-        android:textStyle="bold"
-        android:textSize="30px"
-        android:textColor="#0b0b0b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/But1"
-        android:layout_alignStart="@+id/But1" />
 
     <Button android:text="Linus Torvald"
         android:textColor="#8b6300"
@@ -83,18 +81,12 @@
         android:textSize="25px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView">
+        android:layout_alignBaseline="@+id/But2"
+        android:layout_alignBottom="@+id/But2"
+        android:layout_toRightOf="@+id/But2"
+        android:layout_toEndOf="@+id/But2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp">
     </Button>
-
-    <ImageButton
-        android:background="@drawable/home"
-        android:layout_height="50dp"
-        android:layout_width="50dp"
-        android:id="@+id/home"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

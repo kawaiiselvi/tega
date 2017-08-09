@@ -84,14 +84,14 @@
     <ToggleButton
         android:background="#d8d9ca94"
         android:id="@+id/toggleSound"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:onClick="onToggleClicked"
-        android:textOn="Sound On"
-        android:textOff="Sound Off"
+        android:textOn="On"
+        android:textOff="Off"
         android:textStyle="italic"
         android:textColor="#8b6300"
-        android:layout_below="@+id/exitBtn"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
 

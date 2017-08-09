@@ -22,43 +22,6 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/tukul"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button android:text="Tukul Arwana"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonb"
-        android:layout_width="wrap_content"
-        android:textSize="25px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignTop="@+id/Buttona"
-        android:layout_alignBottom="@+id/Buttona">
-    </Button>
-
-    <Button android:text="Wesley Snipes"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttona"
-        android:layout_width="wrap_content"
-        android:textSize="25px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="23dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView">
-    </Button>
-
     <Button android:text="Ichwan Arif"
         android:textColor="#8b6300"
         android:background="#d9ca94"
@@ -72,31 +35,55 @@
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    <Button
-        android:text="Next ?"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/next1"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
     <TextView
-        android:text="Gambah Siapakah Ini ?"
+        android:text="\nGambar Siapakah Ini ?"
         android:textStyle="bold"
-        android:textSize="30px"
+        android:textSize="35px"
         android:textColor="#0b0b0b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/Buttona"
         android:layout_alignStart="@+id/Buttona"
         android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp" />
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/textView" />
+
+    <Button android:text="Tukul Arwana"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonb"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttona"
+        android:layout_alignBottom="@+id/Buttona"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+    <Button android:text="Wesley Snipes"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttona"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginTop="43dp">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tukul"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

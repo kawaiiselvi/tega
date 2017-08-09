@@ -25,12 +25,12 @@ public class L4next4 extends Activity implements View.OnClickListener {
         pesanToast = (Button) findViewById(R.id.Buttoncc);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        ImageButton hom = (ImageButton) findViewById(R.id.home);
-        hom.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View infoo) {
-                Intent myIntent = new Intent(infoo.getContext(),Play.class);
-                startActivityForResult(myIntent,0);
+        Button ne2 = (Button) findViewById(R.id.Buttonaa);
+        ne2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), Play.class);
+                startActivityForResult(myIntent, 0);
             }
         });
     }

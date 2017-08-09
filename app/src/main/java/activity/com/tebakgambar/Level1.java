@@ -28,7 +28,7 @@ public class Level1 extends Activity implements View.OnClickListener {
 
 
 
-        Button ne1 = (Button) findViewById(R.id.next1);
+        Button ne1 = (Button) findViewById(R.id.Buttonb);
         ne1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new

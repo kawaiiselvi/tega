@@ -17,8 +17,8 @@
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 1"
-        android:textSize="35dp"
+        android:text="              Selamat! \nJawaban Kamu Benar!^^"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:id="@+id/textView" />
 
@@ -35,49 +35,11 @@
         android:layout_alignBottom="@+id/But1">
     </Button>
 
-    <Button android:text="Itik"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/But1"
-        android:layout_width="wrap_content"
-        android:textSize="25px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="23dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView">
-    </Button>
-
-    <Button android:text="Burung"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/But3"
-        android:layout_width="wrap_content"
-        android:textSize="25px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/But2"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView">
-    </Button>
-
-    <Button
-        android:text="Next ?"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/next2"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Gambah apakah Ini ?"
+        android:text="\nGambar apakah Ini ?"
         android:textStyle="bold"
-        android:textSize="30px"
+        android:textSize="35px"
         android:textColor="#0b0b0b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,15 +50,41 @@
         android:layout_marginLeft="25dp"
         android:layout_marginStart="25dp" />
 
+    <Button android:text="Itik"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But1"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView">
+    </Button>
+
+    <Button android:text="Burung"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But3"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/But2"
+        android:layout_alignBottom="@+id/But2"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView">
+    </Button>
+
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/itik"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/But2" />
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
 
 </RelativeLayout>

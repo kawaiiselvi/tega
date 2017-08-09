@@ -25,7 +25,7 @@ public class Level3 extends Activity implements View.OnClickListener {
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
 
-        Button ne1 = (Button) findViewById(R.id.next1);
+        Button ne1 = (Button) findViewById(R.id.Buttonccc);
         ne1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new

@@ -11,27 +11,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="activity.com.tebakgambar.L4next3">
 
+    Tom
+
     <TextView
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#f1ceb145"
+        android:text="\nGambar Apakah Ini ?"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:textColor="#0b0b0b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 4"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        android:id="@+id/textView" />
+        android:id="@+id/textView2"
+        android:layout_alignLeft="@+id/Buttona"
+        android:layout_alignStart="@+id/Buttona"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/tom"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/Buttonaa" />
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button android:text="Tom"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonbb"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonaa"
+        android:layout_alignBottom="@+id/Buttonaa"
+        android:layout_centerHorizontal="true">
+    </Button>
 
     <Button android:text="Jerry"
         android:textColor="#8b6300"
@@ -41,34 +57,13 @@
         android:textSize="20px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/Buttonbb"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView">
+        android:layout_alignBaseline="@+id/Buttonbb"
+        android:layout_alignBottom="@+id/Buttonbb"
+        android:layout_toRightOf="@+id/Buttonbb"
+        android:layout_toEndOf="@+id/Buttonbb"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp">
     </Button>
-
-    Tom<Button android:text="Tom"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonbb"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true">
-    </Button>
-
-    <TextView
-        android:text="Gambar Apakah Ini ?"
-        android:textStyle="bold"
-        android:textSize="30px"
-        android:textColor="#0b0b0b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/Buttonaa"
-        android:layout_alignStart="@+id/Buttonaa" />
 
     <Button android:text="Kucing"
         android:textColor="#8b6300"
@@ -78,22 +73,21 @@
         android:textSize="20px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="31dp"
+        android:layout_marginBottom="52dp"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView">
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2">
     </Button>
 
-    <Button
-        android:text="Next ?"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
+    <TextView
+        android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/next4"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:text="              Selamat! \nJawaban Kamu Benar!^^"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

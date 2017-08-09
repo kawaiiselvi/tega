@@ -22,17 +22,6 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/uci"
-        android:layout_marginTop="31dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/Buttonaa" />
-
     <Button android:text="Jaden Smith"
         android:textColor="#8b6300"
         android:background="#d9ca94"
@@ -46,19 +35,19 @@
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    <Button android:text="Will Smith"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonaa"
+    <TextView
+        android:text="\nGambar Siapakah Ini ?"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:textColor="#0b0b0b"
         android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/textView"
-        android:layout_marginBottom="33dp"
-        android:layout_toLeftOf="@+id/textView">
-    </Button>
+        android:id="@+id/textView2"
+        android:layout_alignLeft="@+id/Buttona"
+        android:layout_alignStart="@+id/Buttona"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/textView" />
 
     <Button android:text="Nursuci Nugroho"
         android:textColor="#8b6300"
@@ -68,35 +57,33 @@
         android:textSize="20px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
+        android:layout_alignBaseline="@+id/Buttonaa"
+        android:layout_alignBottom="@+id/Buttonaa"
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button
-        android:text="Next ?"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/uci"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button android:text="Will Smith"
         android:textColor="#8b6300"
         android:background="#d9ca94"
+        android:id="@+id/Buttonaa"
         android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:id="@+id/next1"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="Gambah Siapakah Ini ?"
-        android:textStyle="bold"
-        android:textSize="30px"
-        android:textColor="#0b0b0b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/Buttona"
-        android:layout_alignStart="@+id/Buttona"
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp" />
+        android:layout_marginBottom="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView">
+    </Button>
 
 
 </RelativeLayout>

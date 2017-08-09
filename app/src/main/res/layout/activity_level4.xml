@@ -35,19 +35,28 @@
         android:layout_toEndOf="@+id/textView">
     </Button>
 
-    <Button android:text="Rowan Atkinson"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonaaa"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bean"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="\nGambar Siapakah Ini ?"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:textColor="#0b0b0b"
         android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/textView"
-        android:layout_marginBottom="33dp"
-        android:layout_toLeftOf="@+id/textView">
-    </Button>
+        android:id="@+id/textView2"
+        android:layout_alignLeft="@+id/Buttona"
+        android:layout_alignStart="@+id/Buttona"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/textView" />
 
     <Button android:text="Mr Bean"
         android:textColor="#8b6300"
@@ -57,43 +66,23 @@
         android:textSize="20px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
+        android:layout_alignBaseline="@+id/Buttonaaa"
+        android:layout_alignBottom="@+id/Buttonaaa"
         android:layout_centerHorizontal="true">
     </Button>
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bean"
-        android:layout_above="@+id/Buttonaaa"
-        android:layout_alignLeft="@+id/Buttonaaa"
-        android:layout_alignStart="@+id/Buttonaaa"
-        android:layout_alignRight="@+id/Buttonccc"
-        android:layout_alignEnd="@+id/Buttonccc"
-        android:layout_below="@+id/textView" />
-
-    <Button
-        android:text="Next ?"
+    <Button android:text="Rowan Atkinson"
         android:textColor="#8b6300"
         android:background="#d9ca94"
+        android:id="@+id/Buttonaaa"
         android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:id="@+id/next1"
-        android:layout_above="@+id/imageView1"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="Gambar Siapakah Ini ?"
-        android:textStyle="bold"
-        android:textSize="30px"
-        android:textColor="#0b0b0b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_alignStart="@+id/imageView1" />
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginTop="53dp">
+    </Button>
 
 </RelativeLayout>
