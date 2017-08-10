@@ -22,7 +22,7 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <Button android:text="Kartika Putri"
+    <Button android:text="Kartika \nPutri"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"
@@ -58,7 +58,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Angelina Jolie"
+    <Button android:text="Angelina \nJolie"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbbb"
@@ -71,7 +71,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Ananda Ayu"
+    <Button android:text="Ananda \nAyu"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaaa"

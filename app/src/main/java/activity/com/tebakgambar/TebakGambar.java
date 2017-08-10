@@ -4,38 +4,26 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
-import android.media.MediaPlayer;
-import android.widget.ToggleButton;
+
+import java.io.IOException;
 
 public class TebakGambar extends Activity implements View.OnClickListener {
-    Button keluar;
-    MediaPlayer audioBackground;
-    ToggleButton myToggle;
-
+    MediaPlayer mp;
+    private Button btnOn;
+    private Button btnOff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tebak_gambar);
 
-        audioBackground = MediaPlayer.create(this, R.raw.my_sound);
-        audioBackground.setLooping(true);
-        audioBackground.setVolume(1,1);
-        audioBackground.start();
 
-        myToggle = (ToggleButton) findViewById(R.id.toggleSound);
-        audioBackground = MediaPlayer.create(this, R.raw.my_sound);
-        audioBackground.setLooping(true);
-        audioBackground.setVolume(1,1);
-        audioBackground.start();
 
-        keluar = (Button) findViewById(R.id.exitBtn);
-        keluar.setOnClickListener(this);
 
         Button satu = (Button) findViewById(R.id.Button1);
         satu.setOnClickListener(new View.OnClickListener() {
@@ -65,15 +53,73 @@ public class TebakGambar extends Activity implements View.OnClickListener {
             }
         });
 
+        Button aaa = (Button) findViewById(R.id.Ajaib);
+        aaa.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), KunciJawaban.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        btnOff = (Button) findViewById(R.id.btnOFF);
+        btnOn=(Button)findViewById(R.id.btnON);
+        btnOn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                btnOn.setEnabled(false);
+                go();
+            }
+        });
+
     }
 
-    public void onClick(View clicked) {
-        switch (clicked.getId()) {
-            case R.id.exitBtn:
-                exit();
-                break;
+    public void go() {
+        mp = MediaPlayer.create(TebakGambar.this, R.raw.submario);
+        try {
+            mp.prepare();
+        } catch (IllegalStateException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+
+            }
+
+            public void OnCompltetion(MediaPlayer arg0) {
+                btnOn.setEnabled(true);
+            }
+        });
+
+        btnOff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                stop();
+            }
+        });
     }
+
+    public void stateAwal(){
+        btnOff.setEnabled(false);
+    }
+
+    public void stop(){
+        mp.stop();
+
+        try{
+            mp.prepare();
+            mp.seekTo(0);
+        }catch (Throwable t) {
+            t.printStackTrace();
+        }
+
+        stateAwal();
+    }
+
+
 
     private void exit() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -93,22 +139,8 @@ public class TebakGambar extends Activity implements View.OnClickListener {
                 }).show();
     }
 
-    public void onToggleClicked(View view) {
-        boolean on = ((ToggleButton) view).isChecked();
-
-        if (on) {
-			/*Mematikan suara audio*/
-            audioBackground.setVolume(0, 0);
-        } else {
-			/*Menghidupkan kembali audio background*/
-            audioBackground.setVolume(1, 1);
-        }
-    }
-
     @Override
-    public void onBackPressed() {
-        // TODO Auto-generated method stub
-        audioBackground.stop();
-        TebakGambar.this.finish();
+    public void onClick(View v) {
+
     }
 }

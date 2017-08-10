@@ -45,20 +45,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Steve Jobs"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonbbb"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/Buttonaaa"
-        android:layout_alignBottom="@+id/Buttonaaa"
-        android:layout_centerHorizontal="true">
-    </Button>
-
-    <Button android:text="Bapak Aep"
+    <Button android:text="Bapak \nAep"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"
@@ -74,7 +61,7 @@
         android:layout_marginStart="17dp">
     </Button>
 
-    <Button android:text="Tom Cruise"
+    <Button android:text="Tom \nCruise"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaaa"
@@ -86,6 +73,19 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2">
+    </Button>
+
+    <Button android:text="Steve \nJobs"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonbbb"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonaaa"
+        android:layout_alignBottom="@+id/Buttonaaa"
+        android:layout_centerHorizontal="true">
     </Button>
 
 </RelativeLayout>

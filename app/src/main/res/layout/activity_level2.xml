@@ -22,7 +22,7 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <Button android:text="Jaden Smith"
+    <Button android:text="Jaden \nSmith"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttoncc"
@@ -49,7 +49,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Nursuci Nugroho"
+    <Button android:text="Nursuci \nNugroho"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbb"
@@ -71,7 +71,7 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
-    <Button android:text="Will Smith"
+    <Button android:text="Will \nSmith"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaa"

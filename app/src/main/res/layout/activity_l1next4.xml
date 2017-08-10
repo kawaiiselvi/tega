@@ -32,7 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp" />
 
-    <Button android:text="Bill Gates"
+    <Button android:text="Bill \nGates"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/But2"
@@ -59,7 +59,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginStart="25dp" />
 
-    <Button android:text="Iwan Fals"
+    <Button android:text="Iwan \nFals"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/But1"
@@ -73,7 +73,7 @@
         android:layout_alignStart="@+id/textView2">
     </Button>
 
-    <Button android:text="Linus Torvald"
+    <Button android:text="Linus \nTorvald"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/But3"

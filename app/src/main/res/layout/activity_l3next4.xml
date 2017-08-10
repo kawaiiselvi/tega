@@ -46,7 +46,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Pacar Selvi"
+    <Button android:text="Pacar \nSelvi"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbb"
@@ -58,7 +58,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Agus Lim"
+    <Button android:text="Agus \nLim"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttoncc"
@@ -74,7 +74,7 @@
         android:layout_marginStart="22dp">
     </Button>
 
-    <Button android:text="Kim Taehyung"
+    <Button android:text="Kim \nTaehyung"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaa"

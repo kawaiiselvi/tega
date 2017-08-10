@@ -1,63 +1,61 @@
 package activity.com.tebakgambar;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-public class Play extends Activity {
+public class KunciJawaban extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play);
+        setContentView(R.layout.activity_kunci_jawaban);
 
-        Button satu = (Button) findViewById(R.id.Button01);
-        satu.setOnClickListener(new View.OnClickListener() {
+        Button aaa = (Button) findViewById(R.id.button8);
+        aaa.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), Level1.class);
+                        Intent(bebek.getContext(), k1.class);
                 startActivityForResult(myIntent, 0);
             }
         });
 
-        Button dua = (Button) findViewById(R.id.Button02);
-        dua.setOnClickListener(new View.OnClickListener() {
+        Button bbb = (Button) findViewById(R.id.button9);
+        bbb.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), Level2.class);
+                        Intent(bebek.getContext(), k2.class);
                 startActivityForResult(myIntent, 0);
             }
         });
 
-        Button tiga = (Button) findViewById(R.id.Button03);
-        tiga.setOnClickListener(new View.OnClickListener() {
+        Button ccc = (Button) findViewById(R.id.button11);
+        ccc.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), Level3.class);
+                        Intent(bebek.getContext(), k3.class);
                 startActivityForResult(myIntent, 0);
             }
         });
 
-        Button pat = (Button) findViewById(R.id.Button04);
-        pat.setOnClickListener(new View.OnClickListener() {
+        Button ddd = (Button) findViewById(R.id.button12);
+        ddd.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), Level4.class);
+                        Intent(bebek.getContext(), k4.class);
                 startActivityForResult(myIntent, 0);
             }
         });
 
-        Button ma = (Button) findViewById(R.id.Button05);
-        ma.setOnClickListener(new View.OnClickListener() {
+        Button eee = (Button) findViewById(R.id.button13);
+        eee.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), Level5.class);
+                        Intent(bebek.getContext(), k5.class);
                 startActivityForResult(myIntent, 0);
             }
         });
-
     }
 }

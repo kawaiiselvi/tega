@@ -45,35 +45,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Emma Watson"
-    android:textColor="#8b6300"
-    android:background="#d9ca94"
-    android:id="@+id/Buttonbb"
-    android:layout_width="wrap_content"
-    android:textSize="20px"
-    android:textStyle="italic"
-    android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/Buttonaa"
-        android:layout_alignBottom="@+id/Buttonaa"
-        android:layout_centerHorizontal="true">
-    </Button>
-
-    <Button android:text="Kristen Stewart"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttoncc"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/Buttonbb"
-        android:layout_toRightOf="@+id/Buttonbb"
-        android:layout_toEndOf="@+id/Buttonbb"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp">
-    </Button>
-
-    <Button android:text="Selvi Kawaii"
+    <Button android:text="Selvi \nKawaii"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaa"
@@ -85,6 +57,38 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="53dp">
+    </Button>
+
+    <Button android:text="Emma \nWatson"
+    android:textColor="#8b6300"
+    android:background="#d9ca94"
+    android:id="@+id/Buttonbb"
+    android:layout_width="wrap_content"
+    android:textSize="20px"
+    android:textStyle="italic"
+    android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonaa"
+        android:layout_alignBottom="@+id/Buttonaa"
+        android:layout_toRightOf="@+id/Buttonaa"
+        android:layout_toEndOf="@+id/Buttonaa"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp">
+    </Button>
+
+    <Button android:text="Kristen \nStewart"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttoncc"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonbb"
+        android:layout_alignBottom="@+id/Buttonbb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp">
     </Button>
 
 </RelativeLayout>

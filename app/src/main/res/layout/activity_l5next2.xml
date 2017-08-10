@@ -45,7 +45,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Patrick"
+    <Button android:text="Si \nPatrick"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbbb"
@@ -57,7 +57,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Bintang Darat"
+    <Button android:text="Bintang \nDarat"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"
@@ -72,7 +72,7 @@
         android:layout_marginStart="22dp">
     </Button>
 
-    <Button android:text="Bintang Laut"
+    <Button android:text="Bintang \nLaut"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaaa"

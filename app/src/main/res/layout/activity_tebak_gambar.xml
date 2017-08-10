@@ -35,20 +35,6 @@
         android:textStyle="italic"
         android:id="@+id/textView4" />
 
-    <Button android:text="Play"
-        android:textColor="#8b6300"
-        android:background="#d8d9ca94"
-        android:id="@+id/Button1"
-        android:layout_width="fill_parent"
-        android:textSize="40px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="11dp"
-        android:layout_above="@+id/exitBtn"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
-
     <ImageButton
         android:background="@drawable/logo"
         android:layout_height="50dp"
@@ -67,32 +53,59 @@
         android:layout_toLeftOf="@+id/textView4"
         android:layout_toStartOf="@+id/textView4" />
 
-    <Button android:text="Exit"
+    <Button
+        android:textStyle="italic"
         android:textColor="#8b6300"
         android:background="#d8d9ca94"
-        android:id="@+id/exitBtn"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:id="@+id/btnON"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_alignBaseline="@+id/btnOFF"
+        android:layout_alignBottom="@+id/btnOFF"
+        android:layout_toLeftOf="@+id/btnOFF"
+        android:layout_toStartOf="@+id/btnOFF" />
+
+    <Button
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:textColor="#8b6300"
+        android:background="#d8d9ca94"
+        android:text="Tombol Ajaib"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Ajaib" />
+
+    <Button
+        android:textStyle="italic"
+        android:textColor="#8b6300"
+        android:background="#d8d9ca94"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:id="@+id/btnOFF"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/smk"
+        android:layout_alignRight="@+id/Ajaib"
+        android:layout_alignEnd="@+id/Ajaib" />
+
+    <Button android:text="Mulai"
+        android:textColor="#8b6300"
+        android:background="#d8d9ca94"
+        android:id="@+id/Button1"
         android:layout_width="fill_parent"
         android:textSize="40px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/smk"
+        android:layout_above="@+id/btnON"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="11dp">
+        android:layout_marginBottom="12dp">
     </Button>
-
-    <ToggleButton
-        android:background="#d8d9ca94"
-        android:id="@+id/toggleSound"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:onClick="onToggleClicked"
-        android:textOn="On"
-        android:textOff="Off"
-        android:textStyle="italic"
-        android:textColor="#8b6300"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

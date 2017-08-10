@@ -22,19 +22,6 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <Button android:text="Angry Bird"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/But2"
-        android:layout_width="wrap_content"
-        android:textSize="25px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignTop="@+id/But1"
-        android:layout_alignBottom="@+id/But1">
-    </Button>
-
     <TextView
         android:text="\nGambar apakah Ini ?"
         android:textStyle="bold"
@@ -58,34 +45,47 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp" />
 
-    <Button android:text="Burung Merah"
+    <Button android:text="Burung\n Merah"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/But1"
         android:layout_width="wrap_content"
-        android:textSize="25px"
+        android:textSize="22px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="23dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2">
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="54dp">
     </Button>
 
-    <Button android:text="Burung Marah"
+    <Button android:text="Burung\n Marah"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/But3"
         android:layout_width="wrap_content"
-        android:textSize="25px"
+        android:textSize="22px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp"
         android:layout_alignBaseline="@+id/But2"
         android:layout_alignBottom="@+id/But2"
         android:layout_toRightOf="@+id/But2"
-        android:layout_toEndOf="@+id/But2">
+        android:layout_toEndOf="@+id/But2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp">
+    </Button>
+
+    <Button android:text="Angry\n Bird"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But2"
+        android:layout_width="wrap_content"
+        android:textSize="22px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/But1"
+        android:layout_alignBottom="@+id/But1"
+        android:layout_centerHorizontal="true">
     </Button>
 
 </RelativeLayout>

@@ -22,7 +22,7 @@
         android:textStyle="bold"
         android:id="@+id/textView" />
 
-    <Button android:text="Michelle Obama"
+    <Button android:text="Michelle \nObama"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"
@@ -58,7 +58,7 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
-    <Button android:text="Natasha Obama"
+    <Button android:text="Natasha \nObama"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbbb"
@@ -71,7 +71,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Kiki Dewi"
+    <Button android:text="Kiki \nDewi"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaaa"
@@ -79,10 +79,10 @@
         android:textSize="20px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
+        android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
-        android:layout_marginTop="54dp">
+        android:layout_marginBottom="55dp">
     </Button>
 
 </RelativeLayout>

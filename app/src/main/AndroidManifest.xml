@@ -45,7 +45,13 @@
         <activity android:name=".L2next4" />
         <activity android:name=".L3next4" />
         <activity android:name=".L4next4" />
-        <activity android:name=".L5next4"></activity>
+        <activity android:name=".L5next4" />
+        <activity android:name=".KunciJawaban" />
+        <activity android:name=".k1" />
+        <activity android:name=".k2" />
+        <activity android:name=".k3" />
+        <activity android:name=".k4" />
+        <activity android:name=".k5"></activity>
     </application>
 
 </manifest>

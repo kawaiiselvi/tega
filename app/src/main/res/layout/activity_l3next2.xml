@@ -46,7 +46,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Kaki Ayam"
+    <Button android:text="Kaki \nAyam"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbb"
@@ -59,7 +59,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Kaki Bebek"
+    <Button android:text="Kaki \nBebek"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttoncc"
@@ -75,7 +75,7 @@
         android:layout_marginStart="19dp">
     </Button>
 
-    <Button android:text="Kaki Angsa"
+    <Button android:text="Kaki \nAngsa"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaa"

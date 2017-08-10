@@ -57,7 +57,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Taekwondo Panda"
+    <Button android:text="Silat Panda"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonccc"

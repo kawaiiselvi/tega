@@ -46,7 +46,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Marc Pincus"
+    <Button android:text="Marc \nPincus"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonbb"
@@ -58,7 +58,7 @@
         android:layout_centerHorizontal="true">
     </Button>
 
-    <Button android:text="Bill Gates"
+    <Button android:text="Bill \nGates"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaa"
@@ -72,7 +72,7 @@
         android:layout_marginTop="52dp">
     </Button>
 
-    <Button android:text="Linus Torvalds"
+    <Button android:text="Linus \nTorvald"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttoncc"

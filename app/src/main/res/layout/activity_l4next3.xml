@@ -65,20 +65,6 @@
         android:layout_marginStart="19dp">
     </Button>
 
-    <Button android:text="Kucing"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonaa"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2">
-    </Button>
-
     <TextView
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
@@ -89,5 +75,19 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button android:text="Kucing"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonaa"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2">
+    </Button>
 
 </RelativeLayout>
