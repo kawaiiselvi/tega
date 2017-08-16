@@ -98,10 +98,23 @@
         android:textStyle="italic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/textView15"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView14"
-        android:layout_alignStart="@+id/textView14"
-        android:layout_marginBottom="48dp"
-        android:id="@+id/textView15" />
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:text=" Gambar 6 = Hinata"
+        android:textColor="#da60593f"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_above="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
 
 </RelativeLayout>

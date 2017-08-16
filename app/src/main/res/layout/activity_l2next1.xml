@@ -35,19 +35,6 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Cucurut"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonbb"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/Buttonaa"
-        android:layout_alignBottom="@+id/Buttonaa"
-        android:layout_centerHorizontal="true">
-    </Button>
-
     <Button android:text="Hamster"
         android:textColor="#8b6300"
         android:background="#d9ca94"
@@ -88,5 +75,18 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button android:text="Kelinci"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/Buttonbb"
+        android:layout_width="wrap_content"
+        android:textSize="20px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonaa"
+        android:layout_alignBottom="@+id/Buttonaa"
+        android:layout_centerHorizontal="true">
+    </Button>
 
 </RelativeLayout>

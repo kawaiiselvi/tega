@@ -30,7 +30,7 @@ public class L1next4 extends Activity implements View.OnClickListener {
         ne1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), Play.class);
+                        Intent(bebek.getContext(), L1n5.class);
                 startActivityForResult(myIntent, 0);
             }
         });

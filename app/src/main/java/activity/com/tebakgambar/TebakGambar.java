@@ -74,7 +74,7 @@ public class TebakGambar extends Activity implements View.OnClickListener {
     }
 
     public void go() {
-        mp = MediaPlayer.create(TebakGambar.this, R.raw.submario);
+        mp = MediaPlayer.create(TebakGambar.this, R.raw.sound);
         try {
             mp.prepare();
         } catch (IllegalStateException e) {

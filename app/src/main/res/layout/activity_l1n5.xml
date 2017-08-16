@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_l3next4"
+    android:id="@+id/activity_l1n5"
     android:background="@drawable/pic"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,84 +9,83 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="activity.com.tebakgambar.L3next4">
+    tools:context="activity.com.tebakgambar.L1n5">
 
     <TextView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:textColor="#f1ceb145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="              Selamat! \nJawaban Kamu Benar!^^"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
+        android:id="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/taetae"
-        android:layout_marginTop="34dp"
+        android:src="@drawable/hinata"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <Button android:text="Sakura"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But2"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/But1"
+        android:layout_alignBottom="@+id/But1">
+    </Button>
 
     <TextView
-        android:text="\nGambar Apakah Ini ?"
+        android:text="\nGambar Siapakah Ini ?"
         android:textStyle="bold"
         android:textSize="35px"
         android:textColor="#0b0b0b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/Buttona"
         android:layout_alignStart="@+id/Buttona"
         android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_below="@+id/textView" />
+        android:layout_marginStart="25dp" />
 
-    <Button android:text="Kim \nTaehyung"
+    <Button android:text="Hinata"
         android:textColor="#8b6300"
         android:background="#d9ca94"
-        android:id="@+id/Buttonbb"
+        android:id="@+id/But1"
         android:layout_width="wrap_content"
-        android:textSize="20px"
+        android:textSize="25px"
         android:textStyle="italic"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/Buttonaa"
-        android:layout_centerHorizontal="true">
-    </Button>
-
-    <Button android:text="Agus \nLim"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttoncc"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/Buttonbb"
-        android:layout_alignBottom="@+id/Buttonbb"
-        android:layout_toRightOf="@+id/Buttonbb"
-        android:layout_toEndOf="@+id/Buttonbb"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp">
-    </Button>
-
-    <Button android:text="Justin \nBieber"
-        android:textColor="#8b6300"
-        android:background="#d9ca94"
-        android:id="@+id/Buttonaa"
-        android:layout_width="wrap_content"
-        android:textSize="20px"
-        android:textStyle="italic"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2">
     </Button>
 
+    <Button android:text="Ino"
+        android:textColor="#8b6300"
+        android:background="#d9ca94"
+        android:id="@+id/But3"
+        android:layout_width="wrap_content"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/But2"
+        android:layout_alignBottom="@+id/But2"
+        android:layout_toRightOf="@+id/But2"
+        android:layout_toEndOf="@+id/But2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp">
+    </Button>
 
 </RelativeLayout>

@@ -51,7 +51,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text=" Gambar 5 = Pacar Selvi"
+        android:text=" Gambar 5 = Kim Taehyung"
         android:textColor="#da60593f"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -91,16 +91,29 @@
         android:layout_alignParentStart="true" />
 
     <TextView
+        android:text=" Gambar 6 = Sasuke"
+        android:textColor="#da60593f"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:text="Good Luck!^^"
         android:textColor="#daac9951"
         android:textSize="20dp"
         android:textStyle="italic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView9"
+        android:id="@+id/textView18"
+        android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView14"
         android:layout_alignStart="@+id/textView14"
-        android:layout_marginTop="48dp"
-        android:id="@+id/textView18" />
+        android:layout_marginBottom="18dp" />
 
 </RelativeLayout>

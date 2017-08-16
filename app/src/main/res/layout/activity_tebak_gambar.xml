@@ -13,17 +13,6 @@
         tools:context="activity.com.tebakgambar.TebakGambar">
 
     <TextView
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#f1f4d560"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="T E G A !"
-        android:textSize="65dp"
-        android:textStyle="bold"
-        android:id="@+id/textView3" />
-
-    <TextView
         android:text="T e b a k G a m b a r !"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -106,6 +95,17 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="12dp">
     </Button>
+
+    <TextView
+        android:textColor="#f1f4d560"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T E G A !"
+        android:textSize="65dp"
+        android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

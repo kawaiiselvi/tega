@@ -45,7 +45,7 @@
         android:layout_marginStart="25dp"
         android:layout_below="@+id/textView" />
 
-    <Button android:text="Selvi \nKawaii"
+    <Button android:text="Emma \nWatson"
         android:textColor="#8b6300"
         android:background="#d9ca94"
         android:id="@+id/Buttonaa"
@@ -59,7 +59,7 @@
         android:layout_marginTop="53dp">
     </Button>
 
-    <Button android:text="Emma \nWatson"
+    <Button android:text="Jessica \nIskandar"
     android:textColor="#8b6300"
     android:background="#d9ca94"
     android:id="@+id/Buttonbb"

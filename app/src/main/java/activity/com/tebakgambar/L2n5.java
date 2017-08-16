@@ -8,28 +8,29 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class L3next4 extends Activity implements View.OnClickListener {
+public class L2n5 extends Activity implements View.OnClickListener {
     Button pesanToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_l3next4);
+        setContentView(R.layout.activity_l2n5);
 
-        pesanToast = (Button) findViewById(R.id.Buttonaa);
+        pesanToast = (Button) findViewById(R.id.But2);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        pesanToast = (Button) findViewById(R.id.Buttonbb);
+        pesanToast = (Button) findViewById(R.id.But1);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        pesanToast = (Button) findViewById(R.id.Buttoncc);
+        pesanToast = (Button) findViewById(R.id.But3);
         pesanToast.setOnClickListener((View.OnClickListener) this);
 
-        Button ne1 = (Button) findViewById(R.id.Buttonbb);
+
+        Button ne1 = (Button) findViewById(R.id.But2);
         ne1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), L3n5.class);
+                        Intent(bebek.getContext(), Play.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -37,13 +38,13 @@ public class L3next4 extends Activity implements View.OnClickListener {
 
     public void onClick(View clicked) {
         switch (clicked.getId()) {
-            case R.id.Buttonaa:
-                Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
-                break;
-            case R.id.Buttonbb:
+            case R.id.But2:
                 Toast.makeText(this, "Jawaban Kamu Benar!", Toast.LENGTH_SHORT) .show();
                 break;
-            case R.id.Buttoncc:
+            case R.id.But1:
+                Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
+                break;
+            case R.id.But3:
                 Toast.makeText(this, "Jawaban Kamu Salah!", Toast.LENGTH_SHORT) .show();
                 break;
         }
